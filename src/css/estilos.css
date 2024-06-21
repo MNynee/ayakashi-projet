@@ -140,7 +140,7 @@ main{
     font-weight: bold;
 }
 
-.cartao.fundo-1, .cartao.fundo-5, .cartao.fundo-m1, .cartao.fundo-m2 {
+.cartao.fundo-1, .cartao.fundo-5, .cartao.fundo-m1, .cartao.fundo-m2, .cartao.fundo-m8, .cartao.fundo-m9, .cartao.fundo-m14, .cartao.fundo-m15, .cartao.fundo-m20, .cartao.fundo-m22 {
     background: url('../imagens/background-anima.jpg') no-repeat;
 }
 
@@ -156,11 +156,11 @@ main{
     background: url('../imagens/background-card.jpg') no-repeat;
 }
 
-.cartao.fundo-m3, .cartao.fundo-m6 {
+.cartao.fundo-m3, .cartao.fundo-m6, .cartao.fundo-m12, .cartao.fundo-m16, .cartao.fundo-m17, .cartao.fundo-18, .cartao.fundo-m19 {
     background: url('../imagens/background-phantom.jpg') no-repeat;
 }
 
-.cartao.fundo-m4, .cartao.fundo-m5 {
+.cartao.fundo-m4, .cartao.fundo-m5, .cartao.fundo-m7, .cartao.fundo-10, .cartao.fundo-11, .cartao.fundo-m13, .cartao.fundo-21 {
     background: url('../imagens/background-divina.jpg') no-repeat;
 }
 
