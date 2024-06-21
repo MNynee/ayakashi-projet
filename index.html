@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayakashi Ghost Guild</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+TC:wght@100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" href="./src/imagens/ayakashi-icon.webp">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1>Ayakashi Ghost Guild</h1>
+    </header>
+    <main>
+
+        <div class="personagens-slider">
+            <button class="btn-seta btn-voltar" id="btn-voltar-p">
+                <img src="./src/imagens/seta.png" alt="seta para voltar a imagem">
+            </button>
+            <ul class="lista-personagens">
+                <li class="cartao selecionado fundo-1">
+                    <h2 class="nome">1★ | Kotetsu</h2>
+                    <img class="imagem-personagem" src="./src/imagens/kotetsu.png" alt="Kotetsu">
+                    <div class="descricao">
+                        <h3 class="titulo">Anima | Skill</h3>
+                        <p class="texto">
+                            A alma da amada espada inscrita de Isami Kondo, chefe da força policial especial
+                            Shinsengumi.
+                            Ela é reservada por natureza, mas sua lâmina pode cortar através de qualquer coisa. <b>Fiery
+                                Spirit</b>: Aumenta o ataque de criaturas anima em 100 pontos.
+                        </p>
+                    </div>
+                    <div class="stats">
+                        <p class="sp-atk-def">
+                            ESPÍRITO: 6 | ATAQUE: 710 | DEFESA: 540
+                        </p>
+                    </div>
+                </li>
+
+                <li class="cartao fundo-2">
+                    <h2 class="nome">4★ | Halloween Kotetsu</h2>
+                    <img class="imagem-personagem" src="src/imagens/kotetsu-hw.jpg" alt="Halloween Kotetsu" />
+                    <div class="descricao">
+                        <h3 class="titulo">Anima | Skill</h3>
+                        <p class="texto">Esta carta só pode ser invocada pelo efeito de "Torre do Halloween". Sob ordens
+                            do
+                            Shinsengumi, ela usa uma fantasia de Halloween. Ela é muito reservada e um pouco sem graça,
+                            mas
+                            ainda assim, muito amável. <b>Fiery Spirit</b>: Aumenta o ataque de criaturas anima em 100
+                            pontos.</p>
+                    </div>
+                    <div class="stats">
+                        <p class="sp-atk-def">
+                            ESPÍRITO: 28 | ATAQUE: 3430 | DEFESA: 3063
+                        </p>
+                    </div>
+                </li>
+
+                <li class="cartao fundo-3">
+                    <h2 class="nome">4★ | Xmas Kotetsu</h2>
+                    <img class="imagem-personagem" src="src/imagens/kotetsu-xmas.jpg" alt="Xmas Kotetsu" />
+                    <div class="descricao">
+                        <h3 class="titulo">Anima | Skill</h3>
+                        <p class="texto">Esta carta só pode ser invocada pelo efeito de "Xmas Eve Kotetsu". Ela está
+                            vestida
+                            em mais uma fantasia de natal seguindo mais outra ordem de cosplay dos oficiais do
+                            Shinsengumi.
+                            Ultimamente, ela parece estar gostando disso... <b>Fiery Spirit</b>: Aumenta o ataque de
+                            criaturas anima em 100 pontos.</p>
+                    </div>
+                    <div class="stats">
+                        <p class="sp-atk-def">
+                            ESPÍRITO: 29 | ATAQUE: 4000 | DEFESA: 2780
+                        </p>
+                    </div>
+                </li>
+                <li class="cartao fundo-4">
+                    <h2 class="nome">5★ | Xmas Eve Kotetsu</h2>
+                    <img class="imagem-personagem" src="src/imagens/kotetsu-xmas-eve.jpg" alt="Xmas Eve Kotetsu" />
+                    <div class="descricao">
+                        <h3 class="titulo">Anima | Skill</h3>
+                        <p class="texto">Essa carta só pode ser invocada pelo efeito de "Véspera de Natal". Quando
+                            "Véspera
+                            de Natal" é removida do campo, esta carta também o é e você pode invocar "Xmas Kotetsu". Ela
+                            tem
+                            tentado usar o tempo passado com seu mestre para alcançar um nível mais alto. Ela continua a
+                            brandir sua espada, apesar de temer seu poder tremendo. <b>Ultimate Fighting Spirit</b>:
+                            Aumenta
+                            o ataque e a defesa de criaturas anima em 500 pontos.</p>
+                    </div>
+                    <div class="stats">
+                        <p class="sp-atk-def">
+                            ESPÍRITO: 32 | ATAQUE: 5300 | DEFESA: 5300
+                        </p>
+                    </div>
+                </li>
+                <li class="cartao fundo-5">
+                    <h2 class="nome">5★ | Focused Kotetsu</h2>
+                    <img class="imagem-personagem" src="src/imagens/kotetsu-focused.jpg" alt="Focused Kotetsu" />
+                    <div class="descricao">
+                        <h3 class="titulo">Anima | Skill</h3>
+                        <p class="texto">Essa carta só pode ser invocada pelo efeito de "O Maravilhoso Mundo do
+                            Armamento".
+                            Ao ouvir sobre o concurso para eleger o melhor Anima, Kotetsu preparou sua espada e acalmou
+                            sua
+                            alma para participar. Sem nenhuma dúvida em mente, ela está 100% focada em destruir qualquer
+                            oponente. <b>Purgatorial Vigor</b>: Aumenta o ataque e a defesa de criaturas anima em 500
+                            pontos.</p>
+                    </div>
+                    <div class="stats">
+                        <p class="sp-atk-def">
+                            ESPÍRITO: 39 | ATAQUE: 4900 | DEFESA: 4530
+                        </p>
+                    </div>
+                </li>
+                <li class="cartao fundo-6">
+                    <h2 class="nome">O Maravilhoso Mundo dos Armamentos</h2>
+                    <img class="imagem-personagem" src="./src/imagens/w-w-w.jpg" alt="Wondrous World of Weaponry" />
+                    <div class="descricao-event">
+                        <h3 class="titulo">Evento</h3>
+                        <p class="texto">Um concurso para determinar o Anima mais poderoso de todos está para começar.
+                            Vindos de todos os lugares, os espíritos de inúmeras peças de armamento se reúnem em uma
+                            torre
+                            que alcança o alto dos céus. <b>Efeito</b>: Quando usada com "Kotetsu" em campo, permite
+                            invocar
+                            "Focused Kotetsu".</p>
+                    </div>
+                </li>
+                <li class="cartao fundo-7">
+                    <h2 class="nome">Torre das Bonecas - Base</h2>
+                    <img class="imagem-personagem" src="./src/imagens/tower-of-dolls-1.jpg"
+                        alt="Torre das Bonecas - Base" />
+                    <div class="descricao-event">
+                        <h3 class="titulo">Evento</h3>
+                        <p class="texto">A base da torre fantasmagórica que sela as bonecas criadas pelo lendário
+                            criador de bonecas Abel. <b>Efeito</b>: Permite buscar uma ou mais magatamas para adicionar
+                            15 pontos aos seus pontos máximos de espírito. Você pode então invocar "Stewart (Banned)",
+                            "Frankie No.2", "Jasmine", "Cinnamon" ou "Banshee".</p>
+                    </div>
+                </li>
+                <li class="cartao fundo-8">
+                    <h2 class="nome">Torre das Bonecas - Meio</h2>
+                    <img class="imagem-personagem" src="./src/imagens/tower-of-dolls-2.jpg"
+                        alt="Torre das Bonecas - Meio" />
+                    <div class="descricao-event">
+                        <h3 class="titulo">Evento</h3>
+                        <p class="texto">O meio da torre fantasmagórica que sela as bonecas criadas pelo lendário
+                            criador de bonecas Abel. <b>Efeito</b>: Só pode ser ativada após a ativação de "Torre das
+                            Boncas - Base". Permite buscar uma ou mais magatamas para adicionar até 25 pontos aos seus
+                            pontos máximos de espírito. Você pode então invocar "Amber", "Musk", "Frankie No.1" ou "Lyra
+                            Vega".</p>
+                    </div>
+                </li>
+                <li class="cartao fundo-9">
+                    <h2 class="nome">Torre das Bonecas - Topo</h2>
+                    <img class="imagem-personagem" src="./src/imagens/tower-of-dolls-3.jpg"
+                        alt="Torre das Bonecas - Topo" />
+                    <div class="descricao-event">
+                        <h3 class="titulo">Evento</h3>
+                        <p class="texto">O topo da torre fantasmagórica que sela as bonecas criadas pelo lendário
+                            criador de bonecas Abel. <b>Efeito</b>: Só pode ser ativada após a ativação de "Torre das
+                            Boncas - Base" e "Torre das Bonecas - Meio". Permite buscar uma ou mais magatamas para
+                            adicionar até 35 pontos aos seus pontos máximos de espírito. Você pode então invocar
+                            "Vanilla" ou "Lucia Vega".</p>
+                    </div>
+                </li>
+            </ul>
+            <button class="btn-seta" id="btn-avancar-p">
+                <img src="./src/imagens/seta.png" alt="seta para avançar a imagem">
+            </button>
+        </div>
+
+        <div class="magatamas-slider">
+            <button class="btn-seta btn-voltar" id="btn-voltar-m">
+                <img src="./src/imagens/seta.png" alt="seta para voltar a imagem">
+            </button>
+            <ul class="lista-personagens">
+                <li class="cartao fundo-m1 selecionado">
+                    <h2 class="nome">3☆ | Magatama de Âmbar</h2>
+                    <img class="imagem-personagem" src="./src/imagens/amber-magatama.jpg" alt="Magatama de Âmbar" />
+                    <div class="descricao-event">
+                        <h3 class="titulo">Pedra de Espírito | Anima</h3>
+                        <p class="texto">Uma magatama aprimorada feita de âmbar. Perfeita para usar com espíritos Anima.
+                            <b>Efeito</b>: Adiciona 15 pontos aos seus pontos máximos de espírito. Diminui o custo de um
+                            Anima em 5 pontos.
+                        </p>
+                    </div>
+                </li>
+                <li class="cartao fundo-m2">
+                    <h2 class="nome">4☆ | Magatama de Anima</h2>
+                    <img class="imagem-personagem" src="./src/imagens/anima-magatama.jpg" alt="Magatama de Anima" />
+                    <div class="descricao-event">
+                        <h3 class="titulo">Pedra de Espírito | Anima</h3>
+                        <p class="texto">Uma magatama aprimorada. Perfeita para usar com espíritos Anima. <b>Efeito</b>:
+                            Adiciona 20 pontos aos seus pontos máximos de espírito. Diminui o custo de um Anima em 5
+                            pontos.
+                        </p>
+                    </div>
+                </li>
+                <li class="cartao fundo-m3">
+                    <h2 class="nome">3☆ | Magatama de Berilo</h2>
+                    <img class="imagem-personagem" src="./src/imagens/beryl-magatama.jpg" alt="Magatama de Berilo" />
+                    <div class="descricao-event">
+                        <h3 class="titulo">Pedra de Espírito | Phantom</h3>
+                        <p class="texto">Uma magatama aprimorada feita de berilo. Perfeita para usar com espíritos
+                            Phantom.
+                            <b>Efeito</b>: Adiciona 15 pontos aos seus pontos máximos de espírito. Diminui o custo de um
+                            Phantom em 5 pontos.
+                        </p>
+                    </div>
+                </li>
+                <li class="cartao fundo-m4">
+                    <h2 class="nome">1☆ | Magatama de Cristal</h2>
+                    <img class="imagem-personagem" src="./src/imagens/crystal-magatama.jpg" alt="Magatama de Cristal" />
+                    <div class="descricao-event">
+                        <h3 class="titulo">Pedra de Espírito | Divina</h3>
+                        <p class="texto">Uma magatama aprimorada feita de cristal. Perfeita para utilizar com espíritos
+                            Divina. <b>Efeito</b>: Adiciona 5 pontos aos seus pontos máximos de espírito. Diminui o
+                            custo de
+                            um Divina em 5 pontos.</p>
+                    </div>
+                </li>
+                <li class="cartao fundo-m5">
+                    <h2 class="nome">5☆ | Magatama de Diamante</h2>
+                    <img class="imagem-personagem" src="./src/imagens/diamond-magatama.jpg"
+                        alt="Magatama de Diamante" />
+                    <div class="descricao-event">
+                        <h3 class="titulo">Pedra de Espírito | Divina</h3>
+                        <p class="texto">Uma magatama aprimorada feita de diamante. Perfeita para usar com espíritos
+                            Divina.
+                            <b>Efeito</b>: Adiciona 25 pontos aos seus pontos máximos de espírito. Diminui o custo de um
+                            Divina em 5 pontos.
+                        </p>
+                    </div>
+                </li>
+                <li class="cartao fundo-m6">
+                    <h2 class="nome">3☆ | Magatama do Medo</h2>
+                    <img class="imagem-personagem" src="./src/imagens/fear-magatama.jpg" alt="Magatama do Medo" />
+                    <div class="descricao-event">
+                        <h3 class="titulo">Pedra de Espírito | Phantom</h3>
+                        <p class="texto">Uma magatama aprimorada de material misterioso. Perfeita para usar com
+                            espíritos
+                            Phantom. <b>Efeito</b>: Adiciona 15 pontos aos seus pontos máximos de espírito. Dobra os
+                            valores
+                            do efeito de uma criatura Phantom.</p>
+                    </div>
+                </li>
+                <li class="cartao fundo-m7">
+                    <h2 class="nome">4☆ | Magatama de Divina</h2>
+                    <img class="imagem-personagem" src="./src/imagens/divina-magatama.jpg" alt="Magatama de Divina" />
+                    <div class="descricao-event">
+                        <h3 class="titulo">Pedra de Espírito | Divina</h3>
+                        <p class="texto">Uma magatama aprimorada de material misterioso. Perfeita para usar com
+                            espíritos
+                            Phantom. <b>Efeito</b>: Adiciona 15 pontos aos seus pontos máximos de espírito. Dobra os
+                            valores
+                            do efeito de uma criatura Phantom.</p>
+                    </div>
+                </li>
+                <li class="cartao fundo-m6">
+                    <h2 class="nome">5☆ | Magatama de Esmeralda</h2>
+                    <img class="imagem-personagem" src="./src/imagens/fear-magatama.jpg" alt="Magatama de Esmeralda" />
+                    <div class="descricao-event">
+                        <h3 class="titulo">Pedra de Espírito | Anima</h3>
+                        <p class="texto">Uma magatama aprimorada de material misterioso. Perfeita para usar com
+                            espíritos
+                            Phantom. <b>Efeito</b>: Adiciona 15 pontos aos seus pontos máximos de espírito. Dobra os
+                            valores
+                            do efeito de uma criatura Phantom.</p>
+                    </div>
+                </li>
+                <li class="cartao fundo-m6">
+                    <h2 class="nome">3☆ | Magatama do Medo</h2>
+                    <img class="imagem-personagem" src="./src/imagens/fear-magatama.jpg" alt="Magatama do Medo" />
+                    <div class="descricao-event">
+                        <h3 class="titulo">Pedra de Espírito | Phantom</h3>
+                        <p class="texto">Uma magatama aprimorada de material misterioso. Perfeita para usar com
+                            espíritos
+                            Phantom. <b>Efeito</b>: Adiciona 15 pontos aos seus pontos máximos de espírito. Dobra os
+                            valores
+                            do efeito de uma criatura Phantom.</p>
+                    </div>
+                </li>
+                <li class="cartao fundo-m6">
+                    <h2 class="nome">3☆ | Magatama do Medo</h2>
+                    <img class="imagem-personagem" src="./src/imagens/fear-magatama.jpg" alt="Magatama do Medo" />
+                    <div class="descricao-event">
+                        <h3 class="titulo">Pedra de Espírito | Phantom</h3>
+                        <p class="texto">Uma magatama aprimorada de material misterioso. Perfeita para usar com
+                            espíritos
+                            Phantom. <b>Efeito</b>: Adiciona 15 pontos aos seus pontos máximos de espírito. Dobra os
+                            valores
+                            do efeito de uma criatura Phantom.</p>
+                    </div>
+                </li>
+                <li class="cartao fundo-m6">
+                    <h2 class="nome">3☆ | Magatama do Medo</h2>
+                    <img class="imagem-personagem" src="./src/imagens/fear-magatama.jpg" alt="Magatama do Medo" />
+                    <div class="descricao-event">
+                        <h3 class="titulo">Pedra de Espírito | Phantom</h3>
+                        <p class="texto">Uma magatama aprimorada de material misterioso. Perfeita para usar com
+                            espíritos
+                            Phantom. <b>Efeito</b>: Adiciona 15 pontos aos seus pontos máximos de espírito. Dobra os
+                            valores
+                            do efeito de uma criatura Phantom.</p>
+                    </div>
+                </li>
+                <li class="cartao fundo-m6">
+                    <h2 class="nome">3☆ | Magatama do Medo</h2>
+                    <img class="imagem-personagem" src="./src/imagens/fear-magatama.jpg" alt="Magatama do Medo" />
+                    <div class="descricao-event">
+                        <h3 class="titulo">Pedra de Espírito | Phantom</h3>
+                        <p class="texto">Uma magatama aprimorada de material misterioso. Perfeita para usar com
+                            espíritos
+                            Phantom. <b>Efeito</b>: Adiciona 15 pontos aos seus pontos máximos de espírito. Dobra os
+                            valores
+                            do efeito de uma criatura Phantom.</p>
+                    </div>
+                </li>
+                <li class="cartao fundo-m6">
+                    <h2 class="nome">3☆ | Magatama do Medo</h2>
+                    <img class="imagem-personagem" src="./src/imagens/fear-magatama.jpg" alt="Magatama do Medo" />
+                    <div class="descricao-event">
+                        <h3 class="titulo">Pedra de Espírito | Phantom</h3>
+                        <p class="texto">Uma magatama aprimorada de material misterioso. Perfeita para usar com
+                            espíritos
+                            Phantom. <b>Efeito</b>: Adiciona 15 pontos aos seus pontos máximos de espírito. Dobra os
+                            valores
+                            do efeito de uma criatura Phantom.</p>
+                    </div>
+                </li>
+                <li class="cartao fundo-m6">
+                    <h2 class="nome">3☆ | Magatama do Medo</h2>
+                    <img class="imagem-personagem" src="./src/imagens/fear-magatama.jpg" alt="Magatama do Medo" />
+                    <div class="descricao-event">
+                        <h3 class="titulo">Pedra de Espírito | Phantom</h3>
+                        <p class="texto">Uma magatama aprimorada de material misterioso. Perfeita para usar com
+                            espíritos
+                            Phantom. <b>Efeito</b>: Adiciona 15 pontos aos seus pontos máximos de espírito. Dobra os
+                            valores
+                            do efeito de uma criatura Phantom.</p>
+                    </div>
+                </li>
+                <li class="cartao fundo-m6">
+                    <h2 class="nome">3☆ | Magatama do Medo</h2>
+                    <img class="imagem-personagem" src="./src/imagens/fear-magatama.jpg" alt="Magatama do Medo" />
+                    <div class="descricao-event">
+                        <h3 class="titulo">Pedra de Espírito | Phantom</h3>
+                        <p class="texto">Uma magatama aprimorada de material misterioso. Perfeita para usar com
+                            espíritos
+                            Phantom. <b>Efeito</b>: Adiciona 15 pontos aos seus pontos máximos de espírito. Dobra os
+                            valores
+                            do efeito de uma criatura Phantom.</p>
+                    </div>
+                </li>
+                <li class="cartao fundo-m6">
+                    <h2 class="nome">3☆ | Magatama do Medo</h2>
+                    <img class="imagem-personagem" src="./src/imagens/fear-magatama.jpg" alt="Magatama do Medo" />
+                    <div class="descricao-event">
+                        <h3 class="titulo">Pedra de Espírito | Phantom</h3>
+                        <p class="texto">Uma magatama aprimorada de material misterioso. Perfeita para usar com
+                            espíritos
+                            Phantom. <b>Efeito</b>: Adiciona 15 pontos aos seus pontos máximos de espírito. Dobra os
+                            valores
+                            do efeito de uma criatura Phantom.</p>
+                    </div>
+                </li>
+                <li class="cartao fundo-m6">
+                    <h2 class="nome">3☆ | Magatama do Medo</h2>
+                    <img class="imagem-personagem" src="./src/imagens/fear-magatama.jpg" alt="Magatama do Medo" />
+                    <div class="descricao-event">
+                        <h3 class="titulo">Pedra de Espírito | Phantom</h3>
+                        <p class="texto">Uma magatama aprimorada de material misterioso. Perfeita para usar com
+                            espíritos
+                            Phantom. <b>Efeito</b>: Adiciona 15 pontos aos seus pontos máximos de espírito. Dobra os
+                            valores
+                            do efeito de uma criatura Phantom.</p>
+                    </div>
+                </li>
+                <li class="cartao fundo-m6">
+                    <h2 class="nome">3☆ | Magatama do Medo</h2>
+                    <img class="imagem-personagem" src="./src/imagens/fear-magatama.jpg" alt="Magatama do Medo" />
+                    <div class="descricao-event">
+                        <h3 class="titulo">Pedra de Espírito | Phantom</h3>
+                        <p class="texto">Uma magatama aprimorada de material misterioso. Perfeita para usar com
+                            espíritos
+                            Phantom. <b>Efeito</b>: Adiciona 15 pontos aos seus pontos máximos de espírito. Dobra os
+                            valores
+                            do efeito de uma criatura Phantom.</p>
+                    </div>
+                </li>
+                <li class="cartao fundo-m6">
+                    <h2 class="nome">3☆ | Magatama do Medo</h2>
+                    <img class="imagem-personagem" src="./src/imagens/fear-magatama.jpg" alt="Magatama do Medo" />
+                    <div class="descricao-event">
+                        <h3 class="titulo">Pedra de Espírito | Phantom</h3>
+                        <p class="texto">Uma magatama aprimorada de material misterioso. Perfeita para usar com
+                            espíritos
+                            Phantom. <b>Efeito</b>: Adiciona 15 pontos aos seus pontos máximos de espírito. Dobra os
+                            valores
+                            do efeito de uma criatura Phantom.</p>
+                    </div>
+                </li>
+                <li class="cartao fundo-m6">
+                    <h2 class="nome">3☆ | Magatama do Medo</h2>
+                    <img class="imagem-personagem" src="./src/imagens/fear-magatama.jpg" alt="Magatama do Medo" />
+                    <div class="descricao-event">
+                        <h3 class="titulo">Pedra de Espírito | Phantom</h3>
+                        <p class="texto">Uma magatama aprimorada de material misterioso. Perfeita para usar com
+                            espíritos
+                            Phantom. <b>Efeito</b>: Adiciona 15 pontos aos seus pontos máximos de espírito. Dobra os
+                            valores
+                            do efeito de uma criatura Phantom.</p>
+                    </div>
+                </li>
+                <li class="cartao fundo-m6">
+                    <h2 class="nome">3☆ | Magatama do Medo</h2>
+                    <img class="imagem-personagem" src="./src/imagens/fear-magatama.jpg" alt="Magatama do Medo" />
+                    <div class="descricao-event">
+                        <h3 class="titulo">Pedra de Espírito | Phantom</h3>
+                        <p class="texto">Uma magatama aprimorada de material misterioso. Perfeita para usar com
+                            espíritos
+                            Phantom. <b>Efeito</b>: Adiciona 15 pontos aos seus pontos máximos de espírito. Dobra os
+                            valores
+                            do efeito de uma criatura Phantom.</p>
+                    </div>
+                </li>
+            </ul>
+            <button class="btn-seta" id="btn-avancar-m">
+                <img src="./src/imagens/seta.png" alt="seta para avançar a imagem">
+            </button>
+        </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+
+</body>
+
+</html>
