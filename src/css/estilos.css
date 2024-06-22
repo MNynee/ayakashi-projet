@@ -156,11 +156,11 @@ main{
     background: url('../imagens/background-card.jpg') no-repeat;
 }
 
-.cartao.fundo-m3, .cartao.fundo-m6, .cartao.fundo-m12, .cartao.fundo-m16, .cartao.fundo-m17, .cartao.fundo-18, .cartao.fundo-m19 {
+.cartao.fundo-m3, .cartao.fundo-m6, .cartao.fundo-m12, .cartao.fundo-m16, .cartao.fundo-m17, .cartao.fundo-m18, .cartao.fundo-m19 {
     background: url('../imagens/background-phantom.jpg') no-repeat;
 }
 
-.cartao.fundo-m4, .cartao.fundo-m5, .cartao.fundo-m7, .cartao.fundo-10, .cartao.fundo-11, .cartao.fundo-m13, .cartao.fundo-21 {
+.cartao.fundo-m4, .cartao.fundo-m5, .cartao.fundo-m7, .cartao.fundo-m10, .cartao.fundo-m11, .cartao.fundo-m13, .cartao.fundo-m21 {
     background: url('../imagens/background-divina.jpg') no-repeat;
 }
 
