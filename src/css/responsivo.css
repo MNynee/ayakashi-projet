@@ -1,20 +1,31 @@
-@media(max-width: 620px){
+@media(max-width: 900px){
     .cabecalho {
         padding: 30px 0;
     }
 
-    .personagens-slider{
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 30px;
+    }
+
+    .personagens-slider, .magatamas-slider{
         padding: 0 15px;
         gap: 10px;
     }
 
     .btn-seta{
-        width: 20px;
-        height: 20px;
+        width: 15px;
+        height: 15px;
         padding: 20px;
     }
 
     .lista-personagens{
         height: 480px;
+    }
+
+    .cartao .descricao{
+        max-height: 110px;
     }
 }
