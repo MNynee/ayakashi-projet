@@ -28,4 +28,13 @@
     .cartao .descricao{
         max-height: 110px;
     }
+
+    .cartao .descricao .texto, .cartao .descricao-event .texto {
+        max-height: 80px;
+        overflow-y: auto;
+    }
+
+    .cartao .stats .sp-atk-def {
+        font-size: 10px;
+    }
 }
