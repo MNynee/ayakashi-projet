@@ -144,19 +144,19 @@ main{
     background: url('../imagens/background-anima.jpg') no-repeat;
 }
 
-.cartao.fundo-2 {
+.cartao.fundo-2, .cartao.fundo-11 {
     background: url('../imagens/background-card-hw.jpg') no-repeat;
 }
 
-.cartao.fundo-3, .cartao.fundo-4 {
+.cartao.fundo-3, .cartao.fundo-4, .cartao.fundo-12, .cartao.fundo-13 {
     background: url('../imagens/background-card-xmas.jpg') no-repeat;
 }
 
-.cartao.fundo-6, .cartao.fundo-7, .cartao.fundo-8, .cartao.fundo-9 {
+.cartao.fundo-6, .cartao.fundo-7, .cartao.fundo-8, .cartao.fundo-9, .cartao.fundo-15 {
     background: url('../imagens/background-card.jpg') no-repeat;
 }
 
-.cartao.fundo-m3, .cartao.fundo-m6, .cartao.fundo-m12, .cartao.fundo-m16, .cartao.fundo-m17, .cartao.fundo-m18, .cartao.fundo-m19 {
+.cartao.fundo-m3, .cartao.fundo-m6, .cartao.fundo-m12, .cartao.fundo-m16, .cartao.fundo-m17, .cartao.fundo-m18, .cartao.fundo-m19, .cartao.fundo-10, .cartao.fundo-14 {
     background: url('../imagens/background-phantom.jpg') no-repeat;
 }
 

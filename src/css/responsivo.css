@@ -2,7 +2,10 @@
     .cabecalho {
         padding: 30px 0;
     }
-
+    
+    .cabecalho .banner-titulo{
+        max-width: 350px;
+    }
     main{
         display: flex;
         flex-direction: column;
@@ -26,7 +29,7 @@
     }
 
     .cartao .descricao{
-        max-height: 110px;
+        max-height: 150px;
     }
 
     .cartao .descricao .titulo, .cartao .descricao-event .titulo {
